@@ -14,9 +14,6 @@
   font-display: swap;
   font-style: normal;
 }
-body._lock {
-  overflow: hidden;
-}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -95,6 +92,7 @@ body._lock {
   padding: 18px 40px;
   border-radius: 30px;
   z-index: 4;
+  font-size: 16px;
 }
 .button svg {
   position: relative;
